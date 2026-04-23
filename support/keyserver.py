@@ -47,7 +47,7 @@ class Keyserver:
 
         self.data[identifier] = pk
 
-    def Get(self, identifier: str) -> bytes:
+    def Get(self, identifier: str) -> AsmPublicKey:
         """
         Retrieves a pk from a String tag.
 
